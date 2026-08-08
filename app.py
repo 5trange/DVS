@@ -25,7 +25,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="VAHAN RTO Registration Analytics",
-    page_icon="🚗",
+    page_icon="car",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -539,9 +539,9 @@ if df.empty:
     st.stop()
 
 tab_macro, tab_oem, tab_audit = st.tabs(
-    ["📊 Macro Fuel Transition",
-     "🏎️ OEM & Powertrain Strategy",
-     "🚨 Regulatory & Data Quality Audit"])
+    ["Macro Fuel Transition",
+     "OEM & Powertrain Strategy",
+     "Regulatory & Data Quality Audit"])
 
 # ===========================================================================
 # TAB 1 - MACRO FUEL TRANSITION
@@ -908,8 +908,8 @@ with tab_oem:
                 "x": [oem["CFAR"].max(), oem["CFAR"].min(), oem["CFAR"].max(), oem["CFAR"].min()],
                 "y": [oem["FMI_Diversity"].max(), oem["FMI_Diversity"].max(),
                       oem["FMI_Diversity"].min(), oem["FMI_Diversity"].min()],
-                "label": ["🌱 Green Pioneers", "🛡️ Diversified Leaders",
-                          "⚡ Clean-Fuel Specialists", "⛽ ICE Dependent"]
+                "label": ["Green Pioneers", "Diversified Leaders",
+                          "Clean-Fuel Specialists", "ICE Dependent"]
             })
             quad_anno = alt.Chart(quad_anno_df).mark_text(fontSize=11, fontWeight="bold", opacity=0.4, color=INK).encode(
                 x="x:Q", y="y:Q", text="label:N"

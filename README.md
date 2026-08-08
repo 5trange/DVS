@@ -4,7 +4,7 @@ An interactive, executive-level Streamlit analytics dashboard and data pipeline 
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 Run the dashboard from the project directory:
 
@@ -35,7 +35,7 @@ The interactive dashboard opens automatically at **`http://localhost:8501`**.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 DVS/
@@ -63,7 +63,7 @@ DVS/
 
 ---
 
-## 📊 Core Business Metrics & Architecture
+## Core Business Metrics & Architecture
 
 ### Key Metrics
 1. **Clean Fuel Adoption Rate (CFAR %):** Share of registered vehicles using clean powertrains (**Electric**, **CNG**, **Hybrid**).
@@ -71,6 +71,6 @@ DVS/
 3. **Fleet Compliance Share (%):** Share of vehicles satisfying compound compliance rules (**BS6/ZEV** emission norm AND vehicle age $\le$ 15 years).
 
 ### Dashboard Layout
-- **Tab 1: 📊 Macro Fuel Transition:** Macro adoption trends, CFAR regional rankings, fuel market share trajectory, annual volume, and net basis-point shifts.
-- **Tab 2: 🏎️ OEM & Powertrain Strategy:** OEM performance metrics, 4-quadrant scatter matrix (CFAR × Herfindahl FMI diversity), year-over-year OEM market share trends, stacked OEM fuel mix, and engine capacity (CC) distribution.
-- **Tab 3: 🚨 Regulatory & Data Quality Audit:** Fleet scrappage risk heatmap, non-compliant vehicle risk table with CSV export, data hygiene score %, and RTO error rate ranking.
+- **Tab 1: Macro Fuel Transition:** Macro adoption trends, CFAR regional rankings, fuel market share trajectory, annual volume, and net basis-point shifts.
+- **Tab 2: OEM & Powertrain Strategy:** OEM performance metrics, 4-quadrant scatter matrix (CFAR × Herfindahl FMI diversity), year-over-year OEM market share trends, stacked OEM fuel mix, and engine capacity (CC) distribution.
+- **Tab 3: Regulatory & Data Quality Audit:** Fleet scrappage risk heatmap, non-compliant vehicle risk table with CSV export, data hygiene score %, and RTO error rate ranking.
