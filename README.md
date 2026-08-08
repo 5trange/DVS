@@ -52,13 +52,9 @@ DVS/
 │   └── processed/
 │       ├── VAHAN_Dataset_Completely_Cleaned.csv     # Cleaned dataset
 │       └── VAHAN_Dataset_Fully_Corrected_Issues.csv # Main dataset powering dashboard
-├── notebooks/
-│   ├── 01_Data_Cleaning_Exploration.ipynb  # Data exploration & cleaning routines
-│   └── 02_Metrics_Calculation.ipynb       # CFAR & Herfindahl FMI calculation routines
-└── docs/
-    ├── Assignment_Specification.md         # Task specification
-    ├── DVS_Assignment_Citations.md         # Design rationale & visualization citations
-    └── VAHAN_RTO_Registration_Analytics_Report.docx # Technical whitepaper report
+└── notebooks/
+    ├── 01_Data_Cleaning_Exploration.ipynb  # Data exploration & cleaning routines
+    └── 02_Metrics_Calculation.ipynb       # CFAR & Herfindahl FMI calculation routines
 ```
 
 ---
